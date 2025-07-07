@@ -7,8 +7,8 @@ import img3 from "../../src/assets/imgs/clareamento02antes.webp";
 import img4 from "../../src/assets/imgs/clareamento02dps.webp";
 import img5 from "../../src/assets/imgs/clareamento03antes.webp";
 import img6 from "../../src/assets/imgs/clareamento03dps.webp";
-import img7 from "../../src/assets/imgs/clareamento04antes.webp";
-import img8 from "../../src/assets/imgs/clareamento04dps.webp";
+import img7 from "../../src/assets/imgs/clareantes.webp";
+import img8 from "../../src/assets/imgs/claredps.webp";
 export default function ResultsSection() {
   const imagens = [
     { antes: img1, depois: img2 },
