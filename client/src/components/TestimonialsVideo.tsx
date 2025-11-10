@@ -38,7 +38,7 @@ const TestimonialsVideo = () => {
           rel="noopener noreferrer"
         >
           <button className="inline-block bg-[#0f8516] text-white w-[330px] font-montserrat font-bold py-4 px-8 rounded-full text-[15px] transition-all duration-300 hover:scale-105 shadow-xl">
-            Agende uma Avaliação Gratuita
+            Agende uma Avaliação
           </button>
         </a>
       </div>
