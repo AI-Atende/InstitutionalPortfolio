@@ -83,15 +83,14 @@ export default function ResultsSection() {
             <ChevronRight size={20} />
           </button>
 
- 
+
           <div className="flex justify-center mt-6 space-x-2">
             {slides.map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
-                }`}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
+                  }`}
               />
             ))}
           </div>
@@ -100,7 +99,7 @@ export default function ResultsSection() {
 
         <div className="text-center mt-12">
           <a
-            href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
+            href="https://s.aiatende.dev.br/dentalsantelp"
             target="_blank"
             rel="noopener noreferrer"
           >

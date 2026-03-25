@@ -11,7 +11,7 @@ import perfil5 from "../assets/imgs/Perfil5.webp";
 const carouselSlides = [
 
 
-  
+
   <Testimonials
     name="Mikaline Valeria"
     comment="Clínica bem aconchegante, recepção organizada ótimos profissionais, equipe maravilhosa"
@@ -38,7 +38,7 @@ const carouselSlides = [
 Amei a tarde, um momento para recarregar as energias e se renovar. Uma delicia!"
     imageUrl={perfil5}
   />,
- 
+
 ];
 export default function TestimonalsSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -49,7 +49,7 @@ export default function TestimonalsSection() {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   const goToSlide = (index: number) => setCurrentSlide(index);
 
- 
+
 
   return (
     <section className="py-20 bg-dental-light" id="resultados">
@@ -100,9 +100,8 @@ export default function TestimonalsSection() {
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-all duration-300 ${
-                  index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
-                }`}
+                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-all duration-300 ${index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
+                  }`}
               />
             ))}
           </div>
@@ -111,7 +110,7 @@ export default function TestimonalsSection() {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="https://tintim.link/whatsapp/e5a967f3-c8b4-4db8-b4b5-62189b3d10fc/2401d20a-39b5-47b2-8af4-20caf1ee5f93"
+            href="https://s.aiatende.dev.br/dentalsantelp"
             target="_blank"
             rel="noopener noreferrer"
           >
