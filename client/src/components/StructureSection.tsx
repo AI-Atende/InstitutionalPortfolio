@@ -15,7 +15,7 @@ const structureImages = [
   {
     src: consult,
     alt: "Consultório odontológico moderno com equipamentos de última geração",
-    title: "Consultórios Modernos", 
+    title: "Consultórios Modernos",
     description: "Equipamentos de última geração e tecnologia avançada para garantir tratamentos precisos e confortáveis."
   },
   {
@@ -44,12 +44,12 @@ export default function StructureSection() {
             Ambiente confortável e moderno para seu atendimento, com tecnologia de ponta e equipe especializada.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {structureImages.map((item, index) => (
             <div key={index} className="animate-on-scroll">
-              <img 
-                src={item.src} 
+              <img
+                src={item.src}
                 alt={item.alt}
                 className="rounded-2xl shadow-xl w-full h-80 object-cover"
               />
@@ -64,15 +64,15 @@ export default function StructureSection() {
         </div>
         <div className="text-center mt-12">
           <a
-              href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="bg-[#0f8516] text-white ml-6 md:ml-0 font-montserrat font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-xl">
-                Agende uma Avaliação
-                
-              </button>
-            </a>
+            href="https://s.aiatende.dev.br/dentalsantelp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-[#0f8516] text-white ml-6 md:ml-0 font-montserrat font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-xl">
+              Agende uma Avaliação
+
+            </button>
+          </a>
         </div>
       </div>
     </section>

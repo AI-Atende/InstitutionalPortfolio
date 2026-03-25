@@ -44,12 +44,12 @@ export default function MainSection() {
         </p>
         <div className="flex justify-center md:justify-start items-center">
           <a
-            href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
+            href="https://s.aiatende.dev.br/dentalsantelp"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button
-              
+
               className="inline-block bg-[#0f8516] text-white w-[330px] font-montserrat font-bold py-4 px-8 rounded-full text-[15px] transition-all duration-300 hover:scale-105 shadow-xl"
             >
               Agende uma Avaliação
@@ -71,7 +71,7 @@ export default function MainSection() {
 
 
       <div className="foto relative z-10 block sm:hidden mb-[30px]">
-        <img src={bgfundo} alt="Imagem Invisalign"  className="w-[300px] h-[270px] mt-[30px] g-[5px] rounded-lg"/>
+        <img src={bgfundo} alt="Imagem Invisalign" className="w-[300px] h-[270px] mt-[30px] g-[5px] rounded-lg" />
       </div>
 
 

@@ -17,7 +17,7 @@ const Profissional = () => {
 
           <div className="btn">
             <a
-              href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
+              href="https://s.aiatende.dev.br/dentalsantelp"
               target="_blank"
               rel="noopener noreferrer"
             >

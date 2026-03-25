@@ -10,14 +10,14 @@ import img8 from "../../src/assets/imgs/Caso02Dps.jpg";
 
 export default function ResultsSection() {
   const imagens = [
-  { antes: img1, depois: img2 },
-  
-  { antes: img7, depois: img8 },
-];
+    { antes: img1, depois: img2 },
 
-const resultSlides = imagens.map((img, index) => (
-  <Result key={index} imgAntes={img.antes} imgDps={img.depois} />
-));
+    { antes: img7, depois: img8 },
+  ];
+
+  const resultSlides = imagens.map((img, index) => (
+    <Result key={index} imgAntes={img.antes} imgDps={img.depois} />
+  ));
 
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -89,9 +89,8 @@ const resultSlides = imagens.map((img, index) => (
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
-                }`}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentSlide ? "bg-dental-secondary" : "bg-gray-300"
+                  }`}
               />
             ))}
           </div>
@@ -100,7 +99,7 @@ const resultSlides = imagens.map((img, index) => (
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
+            href="https://s.aiatende.dev.br/dentalsantelp"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -59,7 +59,7 @@ export default function BenefitsSection() {
         </div>
         <div className="text-center mt-12">
           <a
-            href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
+            href="https://s.aiatende.dev.br/dentalsantelp"
             target="_blank"
             rel="noopener noreferrer"
           >

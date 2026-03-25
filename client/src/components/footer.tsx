@@ -39,7 +39,7 @@ export default function Footer() {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://s.aiatende.dev.br/dentalsantefacetasdentarias"
+                href="https://s.aiatende.dev.br/dentalsantelp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-dental-secondary hover:bg-blue-400 text-dental-primary rounded-full p-3 transition-all duration-300 hover:scale-110"
